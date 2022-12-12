@@ -1,6 +1,6 @@
-const failResponse = (message) => ({
+const fail = (message) => ({
   status: 'fail',
   message,
 });
 
-module.exports = failResponse;
+module.exports = fail;
