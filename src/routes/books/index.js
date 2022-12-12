@@ -4,26 +4,26 @@ module.exports = [
   {
     method: 'GET',
     path: '/books',
-    handler: handler.getBooksHadler,
+    handler: handler.getBooksHandler,
   },
   {
     method: 'POST',
     path: '/books',
-    handler: handler.createBooksHadler,
+    handler: handler.createBooksHandler,
   },
   {
     method: 'GET',
     path: '/books/{bookId}',
-    handler: handler.getBookHadler,
+    handler: handler.getBookHandler,
   },
   {
     method: 'PUT',
     path: '/books/{bookId}',
-    handler: handler.editBookHadler,
+    handler: handler.editBookHandler,
   },
   {
     method: 'DELETE',
     path: '/books/{bookId}',
-    handler: handler.deleteBookHadler,
+    handler: handler.deleteBookHandler,
   },
 ];
